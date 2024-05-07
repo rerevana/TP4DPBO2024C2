@@ -8,9 +8,15 @@ class Anggota extends DB
         return $this->execute($query);
     }
 
+    function getAnggotaJoin()
+    {
+        $query = "SELECT * FROM anggota JOIN fandom ON anggota.fandom = fandom.id";
+        return $this->execute($query);
+    }
+
     function getAnggotaById($id)
     {
-        $query = "SELECT * FROM anggota where id = $id";
+        $query = "SELECT * FROM anggota WHERE id = $id";
         return $this->execute($query);
     }
 

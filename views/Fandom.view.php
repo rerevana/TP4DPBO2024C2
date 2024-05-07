@@ -9,7 +9,7 @@
           <td>" . $no++ . "</td>
           <td>" . $nama . "</td>
           <td>
-          <a href='editFandom.php?id_edit=" . $id .  "' class='btn btn-warning''>Edit</a>
+          <a href='editFandom.php?id_edit=" . $id .  "' class='btn btn-success'>Edit</a>
           <a href='fandom.php?id_hapus=" . $id . "' class='btn btn-danger''>Hapus</a>
           </td>
           </tr>";

@@ -39,7 +39,7 @@
         <label> Tanggal Bergabung: </label>
         <input type="date" name="join_date" class="form-control"> <br>
 
-        <button type="submit" name="add">Submit</button><br>
+        <button class="btn btn-success" type="submit" name="add">Submit</button><br>
         <a href="index.php" class="btn btn-info" type="submit" name="cancel">Cancel</a><br>
 
         </div>
@@ -57,7 +57,7 @@
           <label> Nama Fandom: </label>
           <input type="text" name="nama" class="form-control"> <br>
           
-          <button type="submit" name="add">Submit</button><br>
+          <button class="btn btn-success" type="submit" name="add">Submit</button><br>
           <a href="fandom.php" class="btn btn-info" type="submit" name="cancel">Cancel</a><br>
           
           </div>

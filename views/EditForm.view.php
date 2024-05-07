@@ -11,12 +11,12 @@
         if ($penentu == 'anggota') {
           $data .= '<form action="index.php" method="post">
  
-         <br><br><div class="card">
+         <br><div class="card">
         
          <div class="card-header bg-primary">
          <h1 class="text-white text-center">  Edit Anggota </h1>
         </div><br>
-        <input type="hidden" name="id_edit" class="form-control" value="' . $dataEdit['id'] . '"> <br>
+        <input type="hidden" name="id_edit" class="form-control" value="' . $dataEdit['id'] . '">
 
          <label for="nama" class="form-label">Nama</label>
         <input type="text" class="form-control" id="nama" name="nama" value="' . $dataEdit['nama'] . '" required><br>
@@ -34,7 +34,7 @@
         <label for="join_date" class="form-label">Joining Date</label>
         <input type="date" class="form-control" id="join_date" name="join_date" value="' . $dataEdit['join_date'] . '" required><br>
         
-        <button type="submit" name="edit"> Submit </button><br>
+        <button class="btn btn-success" type="submit" name="edit"> Submit </button><br>
         <a type="submit" name="cancel" href="index.php" class="btn btn-info"> Cancel </a><br>
         
         </div>
@@ -48,12 +48,12 @@
           <div class="card-header bg-primary">
           <h1 class="text-white text-center">  Edit Fandom </h1>
           </div><br>
-          <input type="hidden" name="id_edit" class="form-control" value="' . $dataEdit['id'] . '"> <br>
+          <input type="hidden" name="id_edit" class="form-control" value="' . $dataEdit['id'] . '">
           
           <label> Nama Fandom: </label>
           <input type="text" name="nama" class="form-control" value="' . $dataEdit['nama'] . '"> <br>
           
-          <button type="submit" name="edit">Submit</button><br>
+          <button class="btn btn-success" type="submit" name="edit">Submit</button><br>
           <a href="fandom.php" class="btn btn-info" type="submit" name="cancel">Cancel</a><br>
           
           </div>

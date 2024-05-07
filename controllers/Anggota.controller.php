@@ -18,7 +18,7 @@ class AnggotaController {
   public function index() {
     $this->anggota->open();
     $this->fandom->open();
-    $this->anggota->getAnggota();
+    $this->anggota->getAnggotaJoin();
     $this->fandom->getFandom();
     
     $data = array(
@@ -34,6 +34,7 @@ class AnggotaController {
     while($row = $this->fandom->getResult()){
       array_push($data['fandom'], $row);
     }
+
     $this->anggota->close();
     $this->fandom->close();
 
