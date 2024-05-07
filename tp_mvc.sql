@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 07, 2024 at 12:39 PM
+-- Generation Time: May 07, 2024 at 02:14 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -41,9 +41,9 @@ CREATE TABLE `anggota` (
 --
 
 INSERT INTO `anggota` (`id`, `nama`, `email`, `telp`, `join_date`, `fandom`) VALUES
-(2, 'Rere', 'rere@gmail.com', '09828728827', '2024-05-09', 1),
+(2, 'Rere', 'rere@gmail.com', '098287288273', '2024-05-09', 1),
 (4, 'Veronika', 'vero@gmail.com', '089598768352', '2022-06-22', 8),
-(5, 'Lala', 'lala@gmail.com', '082134623876', '2019-01-07', 1),
+(5, 'Lala', 'lala@gmail.com', '082134623876', '2019-01-07', 10),
 (7, 'Angelina', 'angel@gmail.com', '087654215674', '2024-02-06', 2);
 
 -- --------------------------------------------------------
@@ -94,13 +94,13 @@ ALTER TABLE `fandom`
 -- AUTO_INCREMENT for table `anggota`
 --
 ALTER TABLE `anggota`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `fandom`
 --
 ALTER TABLE `fandom`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- Constraints for dumped tables
