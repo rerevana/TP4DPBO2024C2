@@ -1,6 +1,6 @@
 ## TP4DPBO2024C2
 
-Saya Revana Faliha Salma NIM 2202869 mengerjakan Soal TP3 dalam mata kuliah DPBO untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
+Saya Revana Faliha Salma NIM 2202869 mengerjakan Soal TP4 dalam mata kuliah DPBO untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
 
 ### Desain Program
 
